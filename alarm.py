@@ -60,7 +60,7 @@ class App(ctt.CTk):
         actualTime = datetime.datetime.now()
 
         if actualTime.hour == hours and actualTime.minute == minutes and actualTime.second == seconds:
-            print("Show de Bola")
+            print("Teste")
         else:
             print(f"{actualTime.hour}, {actualTime.minute}, {actualTime.second}")
             self.after(1000, self.checkAlarmTime, hours, minutes, seconds)
